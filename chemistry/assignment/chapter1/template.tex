@@ -1,0 +1,126 @@
+\documentclass[working]{tuftebook}
+
+\usepackage{standalone}
+\input{../preamble/preamble.tex}
+\input{../preamble/laterPreamble.tex}
+
+\usepackage{lewis}
+\usepackage{bohr}
+\usepackage[version=4]{mhchem}
+\pagenumbering{gobble}
+
+\declaretheorem[numbered=no, style=thmgreenbox, name=Word Equation]{wordequation}
+\declaretheorem[numbered=no, style=thmgreenbox, name=Skeleton Equation]{skeletonequation}
+\declaretheorem[numbered=no, style=thmgreenbox, name=Balanced Chemical Equation]{balancedchemicalequation}
+\declaretheorem[numbered=no, style=thmgreenbox, name=WHMIS Safety Symbols]{whmis}
+
+\begin{document}
+\chapter*{Table Salt}
+\vspace{-2em}
+Table salt, also know as \emph{sodium chloride}, are crystals that are transparent, colourless, and brittle.\sidecite[]{saltassociation}
+
+A visual representation of salt is seen in Figure \ref{fig:salt}. 
+
+
+\begin{marginfigure}
+    \centering 
+    \includegraphics[width=0.5\textwidth]{../figures/table salt.jpg}
+    \caption{An image of salt}
+    \label{fig:salt}
+\end{marginfigure}
+
+\begin{wordequation}
+Salt is made from a \textbf{synthesis reaction}, where sodium and chlorine are the reactants and sodium chloride is the product. 
+    \[
+        \text{sodium}+ \text{chlorine}\to \text{sodium chloride}
+    \]
+\end{wordequation}
+
+\begin{skeletonequation}
+    The skeleton equation for table salt is 
+    \[
+        \ce{Na_{(s)}}+ \ce{Cl_{2(g)}}\to \ce{NaCl_{(s)}}
+    \]
+    Where $\ce{Na_{(s)}}$ is sodium and $\ce{Cl_{2(g)}}$ is chlorine (diatomic molecule).
+\end{skeletonequation}
+
+\begin{balancedchemicalequation}
+    The balanced chemical equation is 
+    \[
+        \ce{2Na_{(s)}}+ \ce{Cl_{2(g)}}\to \ce{2NaCl_{(s)}}
+    \]
+\end{balancedchemicalequation}
+
+\begin{marginfigure}
+    \centering
+    \includegraphics[width=\textwidth]{../figures/road salt.jpg}
+    \caption{Road salts are used to melt ice}
+    \label{road-salt}
+\end{marginfigure}
+
+\textbf{Common Uses}\\
+Some common uses for salt are 
+\begin{enumerate}
+    \item{Cooking; salt is most known for being a food preservative and used as a flavoring agent. It is also used for seasoning foods such as steak, soup, and chicken.}
+    \item{Road salt; is used to melt ice to prevent cars and people from slipping (see Figure \ref{road-salt}). The salt compound decomposes into sodium and chlorine ions which disrupt bonds between water molecules.}
+    \item{Removing stains; salt has powerful dehydration properties that will eliminate stains such as blood stains.}
+\end{enumerate}
+
+\textbf{Environmental Impacts}
+\begin{enumerate}
+    \item{The chemical reaction that makes table salt doesn't cause emission of any green house gases whatsoever.}
+    \item{Table salt can contaminate water by making it too salty, and thus undrinkable. This can harm marine animals and wildlife.}
+    \item{Table salt is generally environmentally friendly, unless used in high concentrations. For instance, road salt is damaging to aquatic animals.}
+\end{enumerate}
+
+\section*{Reactant: Chlorine}
+Chlorine is a yellow-green gas at room temperature that is poisonous at high concentrations.\sidecite[]{chlorine}
+
+\begin{marginfigure}
+    \centering
+    \vspace{2em}
+    \includegraphics[width=0.5\textwidth]{../figures/chlorine_gas.png}
+    \caption{Chlorine gas in an erlenmeyer flask}
+    \label{fig:chlorine}
+\end{marginfigure}
+
+\begin{whmis}
+    The WHMIS safety symbols are 
+
+    \centering
+    \includegraphics[width=0.7\textwidth]{../figures/whmis.png}
+    
+\end{whmis}
+
+\textbf{Respective Symbols:} Oxidizing hazard, gas under pressure, acute toxicity, corrosive, can cause damage to environment. \sidecite[]{chlorine-whmis}
+\vspace{2em}
+
+\textbf{Chlorine: 3 Safety Tips}\sidecite[]{chlorine-whmis}
+\begin{enumerate}
+    \item{Do not get in eyes or on skin.}
+    \item{Contain gas under pressure.}
+    \item{Maintain suitable ventilation.}
+\end{enumerate}
+\vspace{2em}
+
+\textbf{Chlorine: 2 Pieces of PPE}\sidecite[]{chlorine-whmis}
+\begin{enumerate}
+    \item{Put on appropriate personal protective equipment, such as a hazmat suit (see Figure \ref{fig:hazmat-suit}).}
+    \item{Equip a respiratory when ventilation is poor.}
+\end{enumerate}
+
+\begin{marginfigure}
+    \centering
+    \includegraphics[width=0.5\textwidth]{../figures/hazmat suit.png}
+    \caption{Hazmat suit}
+    \label{fig:hazmat-suit}
+\end{marginfigure}
+\vspace{2em}
+
+\textbf{Chlorine: 2 Tips for When it Goes Wrong}\sidecite[]{what-to-do}
+\begin{enumerate}
+   \item{Escape the area infected by the chlorine as soon as possible and breathe fresh air.}
+   \item{Seek higher ground\sidenote{You want to seek higher ground because chlorine is heavier than air, and will thus sink.}, wash your entire body while holding your breathe, and seek help immediately.}
+\end{enumerate}
+
+\end{document}
