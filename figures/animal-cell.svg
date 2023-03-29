@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100mm"
+   height="60mm"
+   viewBox="0 0 100 60"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.2.2 (b0a84865, 2022-12-01)"
+   sodipodi:docname="animal-cell.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="marker1401"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow2"
+       markerWidth="7.6999998"
+       markerHeight="5.5999999"
+       viewBox="0 0 7.7 5.6"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path1399" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow2"
+       markerWidth="7.6999998"
+       markerHeight="5.5999999"
+       viewBox="0 0 7.7 5.6"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="arrow2L" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.406257"
+     inkscape:cx="116.26609"
+     inkscape:cy="135.11044"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showborder="true"
+     width="200mm"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1440"
+     inkscape:window-height="872"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid815"
+       units="mm"
+       spacingx="10"
+       spacingy="10"
+       empspacing="4"
+       dotted="false"
+       originx="0"
+       originy="0" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-177)">
+    <text
+       xml:space="preserve"
+       style="font-size:5.29167px;fill:#000000;stroke-width:0.3"
+       x="7.1495934"
+       y="185.09033"
+       id="text248"><tspan
+         sodipodi:role="line"
+         id="tspan246"
+         style="stroke-width:0.3"
+         x="7.1495934"
+         y="185.09033">Animal Cell</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.3;stroke-opacity:1"
+       d="m 19.173393,196.77313 c -29.970857,-0.84833 -1.767622,35.51546 2.06962,8.65477"
+       id="path458" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.3;stroke-opacity:1"
+       d="m 21.243013,205.61605 c 1.004071,20.62606 28.120941,-1.46168 10.348095,-10.3481 -1.879197,-0.9396 -5.636764,-2.82603 -7.902182,-1.69332 -2.220474,1.11023 -3.41466,2.99994 -4.70368,3.38665"
+       id="path1014" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-opacity:1"
+       d="m 12.400094,203.17013 c -4.9565543,13.48246 10.416052,1.89383 0,0 z"
+       id="path1018" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-opacity:1"
+       d="m 59.990233,203.33163 c -4.956554,13.48246 10.416052,1.89383 0,0 z"
+       id="path1018-7" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-opacity:1"
+       d="m 31.402961,202.2294 c -8.533525,1.59913 3.467528,9.5357 0,0 z"
+       id="path1020" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-opacity:1"
+       d="m 88.165682,203.67702 c -8.533525,1.59913 3.467528,9.5357 0,0 z"
+       id="path1020-9" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:1.2, 0.6;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 19.36154,197.14942 c -1.321776,15.76955 9.63548,3.8542 0,0 z"
+       id="path1053" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow2)"
+       d="m 28.392606,218.78635 c -0.196216,-4.97804 -0.511663,-14.71609 -6.02071,-16.36881"
+       id="path1104" />
+    <text
+       xml:space="preserve"
+       style="font-size:5.29167px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="14.381513"
+       y="224.49527"
+       id="text1325"><tspan
+         sodipodi:role="line"
+         id="tspan1323"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3"
+         x="14.381513"
+         y="224.49527">cleavage furrow</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 55.127132,198.07249 c 0.01437,-5.3e-4 -0.0069,19.75545 0,19.75545 2.696017,0 37.153966,-1.40599 38.570177,-2.82221 1.067663,-1.06766 0.496462,-8.66438 0.564441,-10.15995 0.852922,-18.76425 -30.90361,-12.26063 -39.134618,-6.77329 z"
+       id="path1389" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:1.2, 1.2;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 73.565558,192.80436 0.564441,23.70655"
+       id="path1395" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker1401)"
+       d="m 83.725508,224.4131 c -0.448853,-5.83451 -3.122168,-9.75313 -7.902184,-11.66513"
+       id="path1397" />
+    <text
+       xml:space="preserve"
+       style="font-size:5.29167px;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="73.753708"
+       y="230.62196"
+       id="text1447"><tspan
+         sodipodi:role="line"
+         id="tspan1445"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3"
+         x="73.753708"
+         y="230.62196">cell plate</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.29167px;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="60.511036"
+       y="184.6868"
+       id="text1447-3"><tspan
+         sodipodi:role="line"
+         id="tspan1445-0"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3"
+         x="60.511036"
+         y="184.6868">Plant Cell</tspan></text>
+  </g>
+</svg>
