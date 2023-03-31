@@ -89,12 +89,57 @@
         \item{DNA has not been replicated.}
         \item{DNA is damaged.}
     \end{itemize}
-    Cell can undergo programmed cell death (apoptosis).
+    Cell can undergo programmed cell death (apoptosis). See Figure \ref{fig:healthy-cell-checkpoints}. \\
+
+    For more information, visit \url{https://www.khanacademy.org/science/ap-biology/cell-communication-and-cell-cycle/regulation-of-cell-cycle/a/cell-cycle-checkpoints-article}.
 \end{definition}
+
+\begin{figure}[H]
+\centering
+    \includegraphics[width=0.9\textwidth]{../figures/healthy cell checkpoints.jpg}
+    \caption{If a cell doesn't get the go-ahead cues it needs at the $G_1$ checkpoint, it may leave the cell cycle and enter a resting state called the \textbf{ $G_0$ phase}. Some cells stay permanently in $G_0$, while others resume dividing if conditions improve.}
+    \label{fig:healthy-cell-checkpoints}
+\end{figure}
+
+\subsection{$G_1$ Checkpoint}
+\begin{definition}[$G_1$ Checkpoint]
+    The main decision point for a cell; that is, the primary point at which it must choose whether or not to divide. Once the cell passes the $G_1$ checkpoint and enters S phase, it becomes ireversibly committed to division. See Figure \ref{fig:g1-g2-checkpoints}.
+\end{definition}
+
+\subsection{$G_2$ Checkpoint}
+\begin{definition}[$G_2$ Checkpoint]
+    At this stage, the cell will check: 
+    \begin{itemize}
+        \item{ \textbf{DNA integrity}: is any of the DNA damaged?}
+        \item{ \textbf{DNA replication}: was the DNA completely copied during S phase?}
+            If there is damage, the cell will stall at the $G_2$ phase to repair. If the damage is unrepairable, the cell will undergo apoptosis (self destruction). See Figure \ref{fig:g1-g2-checkpoints}.
+    \end{itemize}
+\end{definition}
+
+\begin{figure}[!htb] 
+    \centering
+    \subfloat[\centering $G_1$ checkpoint.]{{\includegraphics[width=0.45\textwidth]{../figures/g1 checkpoint.png}}}  
+    \qquad
+    \subfloat[\centering $G_2$ checkpoint.]{{\includegraphics[width=0.45\textwidth]{../figures/g2 checkpoint.png}}}  
+    \label{fig:g1-g2-checkpoints}
+    \caption{The $G_1$ and $G_2$ checkpoints.}
+\end{figure}
+
+\subsection{The Spindle Checkpoint}
+\begin{definition}[The Spindle Checkpoint]
+    The M checkpoint is known as the ``spindle checkpoint''. Here, the cell examines whether all the sister chromatids are correctly attached to the spindle microtubles. See Figure \ref{fig:m-checkpoint}.
+\end{definition}
+
+\begin{figure}[H]
+\centering
+    \includegraphics[width=0.45 \textwidth ]{../figures/m checkpoint.png}
+    \caption{The spindle checkpoint (M checkpoint).}
+    \label{fig:m-checkpoint}
+\end{figure}
 
 \section{Cancer}
 \begin{definition}[Cancer]
-    This is a group of diseases in which cells grow and divides uncontrollably. See Figure \ref{fig:cancer}.
+    This is a group of diseases in which cells grow and divides uncontrollably. See Figure \ref{fig:cancer} and Table \ref{table:cancer-vs-normal}.
 \end{definition}
 
 This is caused by mutations to the DNA within cells which can allow rapidgrowth, fail to stop uncontrolled cell growth, or make errors when correcting DNA. Mutations are inherited or caused by environmental factors (i.e. radiation, viruses, carcinogens, etc.).
@@ -139,6 +184,31 @@ This is caused by mutations to the DNA within cells which can allow rapidgrowth,
     \end{center}
 \end{table}
 
+\begin{table}[h!]
+    \renewcommand{\arraystretch}{1.5}
+    \setlength{\tabcolsep}{10pt}
+    \setlength{\arrayrulewidth}{0.25mm}
+
+    \begin{center}
+        \vspace{0.5em}
+        \begin{tabular}{|p{0.5\textwidth}|p{0.5\textwidth}|}
+        \hline
+        \textbf{Normal Cells} & \textbf{Cancer Cells}\\ 
+        \hline
+        Make exact copies of themselves through mitosis. & Make exact copies of themselves through mitosis. \\
+        \hline
+        Reproduces for about 50-60 cell divisions. & Does not stop reproducing.\\ 
+        \hline 
+        Stick together to form masses of cells as appropriate. & Does not stick to other cells. Behaves independently.\\ 
+        \hline 
+        Self-destruct (apoptosis) when too old or damaged. & May move to another location of the body.\\ 
+        \hline
+    \end{tabular}
+\end{center}
+    \caption{Comparing normal cells with cancer cells.}
+    \label{table:cancer-vs-normal}
+\end{table}
+
 \newpage
 \subsection{Cancer Prevention}
 \textbf{Healthy choices:}
@@ -153,12 +223,18 @@ This is caused by mutations to the DNA within cells which can allow rapidgrowth,
 
 \subsection{Cancer Treatment}
 \begin{itemize}
-    \item{ \textbf{Surgery} to physocally remove the tumour.}
+    \item{ \textbf{Surgery} to physically remove the tumour.}
     \item{ \textbf{Chemotherapy} uses chemicals and drugs to kill cancer cells; taken orally to intravenously.}
     \item{ \textbf{Radiation therapy} uses focused beams of radiation to target cancer cells.}
 \end{itemize}
 
-% YESTERDAY
+% TODO 
+% Pg 37
+% \begin{problems}
+
+% \end{problems}
+
+% TWO DAYS AGO
 \section{Stem Cells}
 \begin{definition}[Stem Cells]
     Cells that can self-renew and differentiate into many different types of cells in the body. Two types: 
@@ -193,21 +269,19 @@ Stem cells can be collected from the:
     \item{Umbilical cord}
 \end{itemize}
 
-\begin{figure}[!htb] % Some formatting thing. Remove this and the images go above your title page  
+\begin{figure}[!htb]
     \centering
-    % V CHANGE IMAGE SCALE and REMOVE SQUARE BRACKETS AND ITS CONTENT FOR NO CAPTION V
-    \subfloat[\centering Bone marrow biopsy]{{\includegraphics[width=0.4\textwidth]{../figures/bone marrow.jpg}}}  
+    \subfloat[\centering Bone marrow biopsy]{{\includegraphics[width=0.45\textwidth]{../figures/bone marrow.jpg}}}  
     \qquad
-    % V CHANGE IMAGE SCALE and REMOVE SQUARE BRACKETS AND ITS CONTENT FOR NO CAPTION V
-    \subfloat[\centering Bone marrow stem cells]{{\includegraphics[width=0.4\textwidth]{../figures/bone marrow stem cells.jpg}}}
+    \subfloat[\centering Bone marrow stem cells]{{\includegraphics[width=0.45\textwidth]{../figures/bone marrow stem cells.jpg}}}
     \label{fig:example}
 \end{figure}
 
-\subsection{Hiearchy of an Organism}
+\section{Hiearchy of an Organism}
 \begin{definition}[Hiearchy of an Organism]
     The hiearchy is 
     \[
-        \text{cell}\to \text{tisue}\to \text{organ}\to \text{system}\to \text{organism}
+        \text{cell}\to \text{tissue}\to \text{organ}\to \text{system}\to \text{organism}
     \]
     See Figure \ref{fig:hierachy}.
 \end{definition}
@@ -235,9 +309,10 @@ Stem cells can be collected from the:
             \item{Four main types: epithelial, connective, muscle, and nerve tissue}
         \end{itemize}
     \item{ \textbf{Organ}: a structure composed of different tissues to perform a complex function.}
-    \item{ \textbf{ORgan system}: a system of one or more organs that work together to perform a vital body function.}
+    \item{ \textbf{Organ system}: a system of one or more organs that work together to perform a vital body function.}
 \end{itemize}
 
+\section{Types of Tissues}
 \subsection{Epithelial Tissue}
 \begin{definition}[Epithelial Tissue]
     A thin sheet that covers body surfaces and lining the internal organs.
@@ -290,7 +365,7 @@ Stem cells can be collected from the:
     \item{Coordination of body functions.}
 \end{itemize}
 
-% TODAY
+% YESTERYDAY
 \section{Stem Cells Case Study Mini-Assignment}
 \begin{enumerate}
 \setlength\itemsep{0.5em}
@@ -367,7 +442,7 @@ Stem cells can be collected from the:
 
 \begin{figure}[H]
 \centering
-    \includegraphics[width=\textwidth]{../figures/stomach}
+    \includegraphics[width=0.6\textwidth]{../figures/stomach}
     \caption{The stomach.}
     \label{fig:stomach}
 \end{figure}
@@ -386,7 +461,7 @@ Stem cells can be collected from the:
 
 \subsection{Large Intestine}
 \begin{definition}[Large Intestine]
-    Aprobiotic environment that mainly absorbs water and minterals.
+    Aprobiotic environment that mainly absorbs water and minerals.
 \end{definition}
 
 \subsection{Appendix}
@@ -404,7 +479,9 @@ Stem cells can be collected from the:
     An opening where feces is excreted.
 \end{definition}
 
-\subsection{Liver}
+\divider
+
+\subsection{Accessory Organs: Liver}
 \begin{definition}[Liver]
     Produces digestive enzymes and bile; also removes toxins from the blood. See Figure \ref{fig:accessory-organs}.
 
@@ -412,7 +489,7 @@ Stem cells can be collected from the:
 
 \subsection{Gall Bladder}
 \begin{definition}[Gall Bladder]
-    Stores the bile that emulsifies fats. See Figure \ref{fig:accessory-organs}.
+    Stores the bile, which is used to emsulify fats. See Figure \ref{fig:accessory-organs}.
 \end{definition}
 
 \subsection{Pancreas}
@@ -422,9 +499,135 @@ Stem cells can be collected from the:
 
 \begin{figure}[H]
 \centering
-    \includegraphics[width=\textwidth]{../figures/accessory organs.jpg}
+    \includegraphics[width=0.6\textwidth]{../figures/accessory organs.jpg}
     \caption{The accessory organs: the liver, gall bladder, and pancreas.}
     \label{fig:accessory-organs}
+\end{figure}
+
+% TODAY 
+\subsection{Diseases of the Digestive System}
+\begin{table}[h!]
+    \renewcommand{\arraystretch}{1.5}
+    \setlength{\tabcolsep}{10pt}
+    \setlength{\arrayrulewidth}{0.25mm}
+
+    \begin{center}
+        \vspace{0.5em}
+        \begin{tabular}{|l|l|}
+        \hline
+         & Gastroesophageal Reflux Disease (GERD) \\ 
+        \hline
+        Description & Irration of the esopghageal lining due to acid from the stomach. \\
+        \hline
+        Symptoms & Heartburn, chest pain, bitter taste\\ 
+        \hline 
+        Causes & Weakening or abnormalities of the esopghageal sphincter\\ 
+        \hline 
+        Treatment & Antacids, drugs to reduce acid production, surgery\\
+        \hline
+        \end{tabular}
+    \end{center}
+\end{table}
+
+\begin{table}[h!]
+    \renewcommand{\arraystretch}{1.5}
+    \setlength{\tabcolsep}{10pt}
+    \setlength{\arrayrulewidth}{0.25mm}
+
+    \begin{center}
+        \vspace{0.5em}
+    \begin{tabular}{|l|l|}
+        \hline
+         & Gastric Ulcer \\ 
+        \hline
+        Description & Open sores that develop in the stomach lining \\
+        \hline
+        Symptoms & Stomach pain, vomiing blood, dark blood in stool\\ 
+        \hline 
+        Causes & Helicobacter pylori infection NSAIDS (i.e. ibuprofen)\\ 
+        \hline
+        Treatment & Antibiotics if H. pyroli infection, alternative medication\\ 
+        \hline
+        \end{tabular}
+    \end{center}
+\end{table}
+
+\section{Circulatory System}
+\begin{definition}[Circulatory System]
+    The organ system responsible for the 
+    \begin{itemize}
+        \item{Delivery of nutrients and gases.}
+        \item{Regulation of body temperature.}
+        \item{Defense against invading organisms.}
+    \end{itemize}
+    \textbf{Components:}
+    \begin{itemize}
+        \item{Heart.}
+        \item{Blood vessels.}
+        \item{Blood.}
+    \end{itemize}
+\end{definition}
+
+\subsection{Heart}
+\begin{definition}[Heart]
+    A pump that distributes nutrients and gases to every cell in the body. The heart is composed of three kinds of tissues: 
+    \begin{itemize}
+        \item{ \textbf{Cardiac muscle tissue} contracts synergistically (at the same time) to pump blood throughout the body.}
+        \item{ \textbf{Nerve tissue} is responsible for the heart rate and can respond to stress, temperature, and physical activity.}
+        \item{ \textbf{Epithelial tissue} lines the inner surface of the heart to allow blood to flow freely; smooth layer of epithelial tissue on the outside reduces friction and protects the heart from damage.}
+    \end{itemize}
+\end{definition}
+
+\subsection{Blood vessels}
+\begin{definition}[Blood vessels]
+    There are three kinds of blood vessels: 
+    \begin{itemize}
+        \item{ \textbf{Artery} carries blood away from the heart; have thick, muscular walls to withstand high blood pressure. See Figure \ref{fig:artery}.}
+        \item{ \textbf{Vein} carries blood through the heart; have thinner walls with valves to pump blood back to the heart. See Figure \ref{fig:artery}.}
+        \item{ \textbf{Capillary} connects arteries to veins; have one-cell thick walls to maximize diffusion of susbstance between blood and tissues. See Figure \ref{fig:capillary}.}
+    \end{itemize}
+\end{definition}
+
+\begin{figure}[H]
+\centering
+    \includegraphics[width=0.5\textwidth]{../figures/artery.png}
+    \caption{The artery (red) and the vein (blue). The connect part are referred as the capillaries.}
+    \label{fig:artery}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+    \includegraphics[width=0.7\textwidth]{../figures/capillary.jpg}
+    \caption{The cappilary.}
+    \label{fig:capillary}
+\end{figure}
+
+\subsection{Blood}
+\begin{definition}[Blood]
+    A connective tissue that consists of the following main cells: 
+    \begin{itemize}
+        \item{ \textbf{Erythrocytes} are red blood cells that are biconcave in shape and contain hemoglobin that attaches to oxyge and carbon dioxide.}
+        \item{ \textbf{Leukocytes} are white blood cells that are defending the body against pahtogens.}
+        \item{ \textbf{Platelets } help ion blood clotting.}
+        \item{ \textbf{Plasma} is protein rich liquid that suspends the cells.}
+    \end{itemize}
+    See Figure \ref{fig:hemoglobin} and Figure \ref{fig:hematocrit}.
+\end{definition}
+
+% TODO 
+% Side by side figures
+\begin{figure}[H]
+\centering
+    \includegraphics[width=0.5\textwidth]{../figures/hemloblogin.jpg}
+    \caption{Hemoglobin.}
+    \label{fig:hemoglobin}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+    \includegraphics[width=0.5 \textwidth ]{../figures/hematocrit.png}
+    \caption{A centrifuge for separating blood plasma. This is known as \textbf{hematocrit}.}
+    \label{fig:hematocrit}
 \end{figure}
 
 \end{document}
